@@ -1,0 +1,28 @@
+.TH MAINUAN-KERNEL-INSTALLER 1 "2026-11-07" "1.1.0" "Mainuan Kernel Installer Manual"
+.SH NAME
+mainuan-kernel-installer \- A graphical interface for downloading, compiling and installing the Linux kernel
+.SH SYNOPSIS
+.B mainuan-kernel-installer
+.SH DESCRIPTION
+.B mainuan-kernel-installer
+is a GTK3 application designed to simplify the process of obtaining, configuring, and installing the Linux kernel. It supports multiple optimization profiles (Gaming, Audio/Video, Minimal, Hardware Optimized), a hardware test that recommends a compatible kernel, installation and removal of pre-built RT, LTS and XanMod kernels, and removal of any installed kernel. It is compatible with major Linux distributions.
+.SH OPTIONS
+This application does not take any command line options.
+.SH KEYBOARD SHORTCUTS
+.TP
+.B Ctrl+Q
+Quit the application.
+.TP
+.B F5
+Refresh available kernel versions.
+.SH FILES
+.TP
+.I /usr/share/mainuan-kernel-installer/
+Application data and logic.
+.TP
+.I ~/.kernel_installer_history.json
+Installation history file.
+.SH AUTHORS
+David Caixinha
+.SH LICENSE
+GPL-3.0

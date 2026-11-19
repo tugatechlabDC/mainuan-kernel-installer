@@ -1,0 +1,1255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-26 13:31+0100\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kernel_installer_gui/app/application.py:84
+msgid "Verifying environment (requires password)..."
+msgstr "Vérification de l'environnement (mot de passe requis)..."
+
+#: kernel_installer_gui/app/application.py:91
+msgid "Dependencies installed/verified."
+msgstr "Dépendances installées/vérifiées."
+
+#: kernel_installer_gui/app/application.py:98
+msgid "Error installing dependencies."
+msgstr "Erreur lors de l'installation des dépendances."
+
+#: kernel_installer_gui/app/application.py:324
+#: kernel_installer_gui/app/main_window.py:51
+msgid "Kernel Installer"
+msgstr "Installateur de Noyau"
+
+#: kernel_installer_gui/app/application.py:327
+msgid ""
+"A graphical interface for downloading, compiling and installing the Linux "
+"kernel with optimized profiles."
+msgstr ""
+"Une interface graphique pour télécharger, compiler et installer le noyau "
+"Linux avec des profils optimisés."
+
+#: kernel_installer_gui/app/application.py:349
+msgid "Clean build files?"
+msgstr "Nettoyer les fichiers de construction ?"
+
+#: kernel_installer_gui/app/application.py:352
+msgid ""
+"All temporary files in ~/kernel_build will be deleted.\n"
+"This will free up disk space."
+msgstr ""
+"Tous les fichiers temporaires dans ~/kernel_build seront supprimés.\n"
+"Cela libérera de l'espace disque."
+
+#: kernel_installer_gui/app/application.py:361
+msgid "Build files deleted."
+msgstr "Fichiers de construction supprimés."
+
+#: kernel_installer_gui/app/application.py:363
+msgid "Error cleaning files."
+msgstr "Erreur lors du nettoyage des fichiers."
+
+#: kernel_installer_gui/app/main_window.py:52
+msgid "by David Caixinha"
+msgstr "par David Caixinha"
+
+#: kernel_installer_gui/app/main_window.py:63
+msgid "Refresh versions (F5)"
+msgstr "Actualiser les versions (F5)"
+
+#: kernel_installer_gui/app/main_window.py:64
+msgid "Clean build files"
+msgstr "Nettoyer les fichiers de construction"
+
+#: kernel_installer_gui/app/main_window.py:65
+msgid "About"
+msgstr "À propos"
+
+#: kernel_installer_gui/app/main_window.py:66
+msgid "Quit (Ctrl+Q)"
+msgstr "Quitter (Ctrl+Q)"
+
+#: kernel_installer_gui/app/main_window.py:103
+msgid "Kernel name (suffix)"
+msgstr "Nom du noyau (suffixe)"
+
+#: kernel_installer_gui/app/main_window.py:111
+msgid "E.g.: gaming, server, my-kernel"
+msgstr "Ex : gaming, serveur, mon-noyau"
+
+#: kernel_installer_gui/app/main_window.py:112
+msgid "This name will be added to the kernel, e.g.: 6.18.7-custom-gaming"
+msgstr "Ce nom sera ajouté au noyau, ex : 6.18.7-custom-gaming"
+
+#: kernel_installer_gui/app/main_window.py:117
+msgid "Result: 6.x.x-custom-gaming (combined with profile)"
+msgstr "Résultat : 6.x.x-custom-gaming (combiné avec profil)"
+
+#: kernel_installer_gui/app/main_window.py:129
+msgid "Clean build directory after installation (Save disk space)"
+msgstr ""
+"Nettoyer le répertoire de construction après l'installation (Économiser de "
+"l'espace)"
+
+#: kernel_installer_gui/app/main_window.py:141
+msgid "Distribution:"
+msgstr "Distribution :"
+
+#: kernel_installer_gui/app/main_window.py:146
+msgid "Detecting..."
+msgstr "Détection..."
+
+#: kernel_installer_gui/app/main_window.py:153
+msgid "Current kernel:"
+msgstr "Noyau actuel :"
+
+#: kernel_installer_gui/app/main_window.py:170
+msgid "Bootloader:"
+msgstr "Chargeur d'amorçage :"
+
+#: kernel_installer_gui/app/main_window.py:182
+msgid "Initramfs:"
+msgstr "Initramfs :"
+
+#: kernel_installer_gui/app/main_window.py:210
+msgid "📥 Download and install kernel"
+msgstr "📥 Télécharger et installer le noyau"
+
+#: kernel_installer_gui/app/main_window.py:233
+msgid "Cancel"
+msgstr "Annuler"
+
+#: kernel_installer_gui/app/main_window.py:239
+msgid "Done"
+msgstr "Terminé"
+
+#: kernel_installer_gui/app/main_window.py:274
+msgid "Checking system dependencies..."
+msgstr "Vérification des dépendances système..."
+
+#: kernel_installer_gui/app/main_window.py:283
+msgid "Working..."
+msgstr "Travail en cours..."
+
+#: kernel_installer_gui/app/main_window.py:300
+msgid "CRITICAL: Failed to install dependencies. Check terminal output."
+msgstr ""
+"CRITIQUE : Échec de l'installation des dépendances. Vérifiez la sortie de la "
+"console."
+
+#: kernel_installer_gui/app/main_window.py:333
+msgid "Unsupported distribution"
+msgstr "Distribution non supportée"
+
+#: kernel_installer_gui/app/main_window.py:336
+#, python-format
+msgid ""
+"%(distro)s is not officially supported. The program might not work correctly."
+msgstr ""
+"%(distro)s n'est pas officiellement supportée. Le programme pourrait ne pas "
+"fonctionner correctamente."
+
+#: kernel_installer_gui/app/main_window.py:348
+msgid "Please select a kernel version."
+msgstr "Veuillez sélectionner une version du noyau."
+
+#: kernel_installer_gui/app/main_window.py:355
+#, python-format
+msgid ""
+"Missing required build tools: %(tools)s\n"
+"\n"
+"Please install them and try again."
+msgstr ""
+"Outils de construction manquants : %(tools)s\n"
+"\n"
+"Veuillez les installer et réessayer."
+
+#: kernel_installer_gui/app/main_window.py:391
+msgid "Install kernel?"
+msgstr "Installer le noyau ?"
+
+#: kernel_installer_gui/app/main_window.py:394
+#, python-format
+msgid ""
+"You are about to download, compile and install:\n"
+"\n"
+"• Version: Linux %(version)s\n"
+"• Profile: %(profile)s\n"
+"\n"
+"This process may take several hours."
+msgstr ""
+"Vous êtes sur le point de télécharger, compiler et installer :\n"
+"\n"
+"• Version : Linux %(version)s\n"
+"• Profil : %(profile)s\n"
+"\n"
+"Ce processus puede tomar varias horas."
+
+#: kernel_installer_gui/app/main_window.py:440
+msgid "Stopping build process..."
+msgstr "Arrêt du processus de compilation..."
+
+#: kernel_installer_gui/app/main_window.py:441
+msgid "Cancellation requested by user..."
+msgstr "Annulation demandée par l'utilisateur..."
+
+#: kernel_installer_gui/app/main_window.py:454
+msgid "Starting removal..."
+msgstr "Démarrage de la suppression..."
+
+#: kernel_installer_gui/app/main_window.py:479
+msgid "Remove kernel?"
+msgstr "Supprimer le noyau ?"
+
+#: kernel_installer_gui/app/main_window.py:482
+#, python-format
+msgid ""
+"Are you sure you want to completely remove Linux %(version)s?\n"
+"\n"
+"This will delete the kernel image, modules, and update the bootloader."
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer complètement Linux %(version)s ?\n"
+"\n"
+"Cela supprimera l'image du noyau, les modules et mettra à jour le chargeur "
+"d'amorçage."
+
+#: kernel_installer_gui/app/main_window.py:501
+msgid "Kernel removed successfully"
+msgstr "Noyau supprimé avec succès"
+
+#: kernel_installer_gui/app/main_window.py:515
+#: kernel_installer_gui/core/kernel.py:509
+msgid "Installation complete!"
+msgstr "Installation terminée !"
+
+#: kernel_installer_gui/app/main_window.py:518
+msgid ""
+"The kernel has been installed successfully.\n"
+"\n"
+"Do you want to reboot now to use the new kernel?"
+msgstr ""
+"Le noyau a été installé avec succès.\n"
+"\n"
+"Voulez-vous redémarrer maintenant pour utiliser le nouveau noyau ?"
+
+#: kernel_installer_gui/app/main_window.py:536
+msgid "Error"
+msgstr "Erreur"
+
+#: kernel_installer_gui/app/main_window.py:562
+#, python-format
+msgid "Result: %s"
+msgstr "Résultat : %s"
+
+#: kernel_installer_gui/core/distro.py:549
+#: kernel_installer_gui/core/distro.py:551
+#: kernel_installer_gui/core/distro.py:560
+#: kernel_installer_gui/core/distro.py:562
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: kernel_installer_gui/core/kernel.py:223
+#, python-format
+msgid "Preparing download for Linux %(version)s..."
+msgstr "Préparation du téléchargement pour Linux %(version)s..."
+
+#: kernel_installer_gui/core/kernel.py:227
+msgid "Error: Could not create build directory"
+msgstr "Erreur : Impossible de créer le répertoire de construction"
+
+#: kernel_installer_gui/core/kernel.py:248
+#, python-format
+msgid "Download error: %(error)s"
+msgstr "Erreur de téléchargement : %(error)s"
+
+#: kernel_installer_gui/core/kernel.py:251
+msgid "Download complete. Extracting..."
+msgstr "Téléchargement terminado. Extraction..."
+
+#: kernel_installer_gui/core/kernel.py:257
+msgid "Removing old source directory..."
+msgstr "Suppression de l'ancien répertoire des sources..."
+
+#: kernel_installer_gui/core/kernel.py:284
+#, python-format
+msgid "Extraction error: %(error)s"
+msgstr "Erreur d'extraction : %(error)s"
+
+#: kernel_installer_gui/core/kernel.py:292
+msgid "Extraction complete."
+msgstr "Extraction terminée."
+
+#: kernel_installer_gui/core/kernel.py:310
+msgid "Copying current kernel configuration..."
+msgstr "Copie de la configuration actuelle du noyau..."
+
+#: kernel_installer_gui/core/kernel.py:321
+#, python-format
+msgid "Applying profile: %(profile)s..."
+msgstr "Application du profil : %(profile)s..."
+
+#: kernel_installer_gui/core/kernel.py:327
+#, python-format
+msgid "Warning applying profile: %(error)s"
+msgstr "Attention lors de l'application du profil : %(error)s"
+
+#: kernel_installer_gui/core/kernel.py:367
+msgid "Configuration complete."
+msgstr "Configuration terminée."
+
+#: kernel_installer_gui/core/kernel.py:383
+#, python-format
+msgid "Compiling kernel with %(cores)d cores..."
+msgstr "Compilation du noyau avec %(cores)d cœurs..."
+
+#: kernel_installer_gui/core/kernel.py:404
+msgid "Generating .deb packages..."
+msgstr "Génération des paquets .deb..."
+
+#: kernel_installer_gui/core/kernel.py:409
+msgid "Generating RPM packages..."
+msgstr "Génération des paquets RPM..."
+
+
+#: kernel_installer_gui/core/kernel.py:409
+msgid "Generating RPM packages (optimized)..."
+msgstr "Génération des paquets RPM (optimisée)..."
+
+#: kernel_installer_gui/core/kernel.py:413
+msgid "Compiling for direct installation..."
+msgstr "Compilation pour installation directe..."
+
+#: kernel_installer_gui/core/kernel.py:424
+msgid "Build cancelled by user."
+msgstr "Compilation annulée par l'utilisateur."
+
+#: kernel_installer_gui/core/kernel.py:437
+msgid "Compiling modules..."
+msgstr "Compilation des modules..."
+
+#: kernel_installer_gui/core/kernel.py:447
+msgid "Error compiling modules"
+msgstr "Erreur lors de la compilation des modules"
+
+#: kernel_installer_gui/core/kernel.py:450
+msgid "Build complete."
+msgstr "Compilation terminée."
+
+#: kernel_installer_gui/core/kernel.py:464
+msgid "Installing kernel..."
+msgstr "Installation du noyau..."
+
+#: kernel_installer_gui/core/kernel.py:475
+msgid "Preparing .deb packages installation..."
+msgstr "Préparation de l'installation des paquets .deb..."
+
+#: kernel_installer_gui/core/kernel.py:480
+msgid "Preparing RPM packages installation..."
+msgstr "Préparation de l'installation des paquets RPM..."
+
+#: kernel_installer_gui/core/kernel.py:485
+msgid "Preparing direct installation..."
+msgstr "Préparation de l'installation directe..."
+
+#: kernel_installer_gui/core/kernel.py:498
+msgid "Finalizing installation (may require password)..."
+msgstr "Finalisation de l'installation (peut nécessiter un mot de passe)..."
+
+#: kernel_installer_gui/core/kernel.py:503
+#, python-format
+msgid "Installation error: %(error)s"
+msgstr "Erreur d'installation : %(error)s"
+
+#: kernel_installer_gui/core/kernel.py:633
+#, python-format
+msgid "Removing kernel %(version)s..."
+msgstr "Suppression du noyau %(version)s..."
+
+#: kernel_installer_gui/core/kernel.py:637
+msgid "Uninstalling packages/files..."
+msgstr "Désinstallation des paquets/fichiers..."
+
+#: kernel_installer_gui/core/kernel.py:641
+#, python-format
+msgid "Error removing kernel: %(error)s"
+msgstr "Erreur lors de la suppression du noyau : %(error)s"
+
+#: kernel_installer_gui/core/kernel.py:645
+msgid "Updating bootloader..."
+msgstr "Mise à jour du chargeur d'amorçage..."
+
+#: kernel_installer_gui/core/kernel.py:650
+msgid "Warning: Error updating bootloader during removal"
+msgstr ""
+"Avertissement : Erreur lors de la mise à jour du chargeur d'amorçage pendant "
+"la suppression"
+
+#: kernel_installer_gui/core/kernel.py:653
+msgid "Updating history..."
+msgstr "Mise à jour de l'historique..."
+
+#: kernel_installer_gui/core/kernel.py:671
+msgid "Kernel removed successfully."
+msgstr "Le noyau a été supprimé avec succès."
+
+#: kernel_installer_gui/core/notifications.py:74
+msgid "New kernel version available"
+msgstr "Nouvelle version du noyau disponible"
+
+#: kernel_installer_gui/core/notifications.py:75
+#, python-format
+msgid "Linux %(version)s is available for download."
+msgstr "Linux %(version)s est disponible au téléchargement."
+
+#: kernel_installer_gui/core/notifications.py:83
+msgid "Download complete"
+msgstr "Téléchargement terminado"
+
+#: kernel_installer_gui/core/notifications.py:84
+#, python-format
+msgid "Linux %(version)s has been downloaded successfully."
+msgstr "Linux %(version)s a été téléchargé con éxito."
+
+#: kernel_installer_gui/core/notifications.py:93
+msgid "Build complete"
+msgstr "Compilation terminée"
+
+#: kernel_installer_gui/core/notifications.py:94
+#, python-format
+msgid "Linux %(version)s has been compiled and installed successfully."
+msgstr "Linux %(version)s a été compilé et installé avec succès."
+
+#: kernel_installer_gui/core/notifications.py:100
+msgid "Build error"
+msgstr "Erreur de construction"
+
+#: kernel_installer_gui/core/notifications.py:101
+#, python-format
+msgid "Compilation of Linux %(version)s has failed."
+msgstr "La compilation de Linux %(version)s ha fallado."
+
+#: kernel_installer_gui/core/notifications.py:110
+msgid "Build cancelled"
+msgstr "Compilation annulée"
+
+#: kernel_installer_gui/core/notifications.py:111
+#, python-format
+msgid "Compilation of Linux %(version)s was cancelled by user."
+msgstr "La compilation de Linux %(version)s a été annulée par l'utilisateur."
+
+#: kernel_installer_gui/core/notifications.py:109
+msgid "Reboot required"
+msgstr "Redémarrage requis"
+
+#: kernel_installer_gui/core/notifications.py:110
+msgid "Reboot the system to use the new kernel."
+msgstr "Redémarrez le système para utiliser le nouveau noyau."
+
+#: kernel_installer_gui/core/profiles.py:141
+msgid "Gaming"
+msgstr "Jeux"
+
+#: kernel_installer_gui/core/profiles.py:144
+msgid ""
+"Optimized for games with low input latency, high CPU performance and better "
+"GPU management. Ideal for gamers and streaming."
+msgstr ""
+"Optimisé pour les jeux avec une faible latence d'entrée, des performances "
+"CPU élevées et une meilleure gestion GPU. Idéal pour les joueurs et le "
+"streaming."
+
+#: kernel_installer_gui/core/profiles.py:193
+msgid ""
+"Low-latency kernel for audio and video production. Optimized for DAWs, video "
+"editing and professional streaming. Uses real-time preemption for ultra-low "
+"latency."
+msgstr ""
+"Noyau à faible latence pour la production audio et vidéo. Optimisé pour les "
+"DAW, le montage vidéo et le streaming professionnel. Utilise la préemption "
+"en tiempo réel para una latencia ultra-gaixa."
+
+#: kernel_installer_gui/core/profiles.py:239
+msgid "Minimal / Office"
+msgstr "Minimal / Bureau"
+
+#: kernel_installer_gui/core/profiles.py:242
+msgid ""
+"Lightweight kernel for office work, web browsing and general use. No "
+"unnecessary modules, low resource consumption. Ideal for older hardware or "
+"virtual machines."
+msgstr ""
+"Noyau léger pour le travail de bureau, la navigation Web et l'utilisation "
+"générale. Pas de modules inutiles, faible consommation de ressources. Idéal "
+"pour le matériel ancien ou les machines virtuelles."
+
+#: kernel_installer_gui/core/profiles.py:326
+msgid "Hardware Optimized"
+msgstr "Optimisé pour le matériel"
+
+#: kernel_installer_gui/core/profiles.py:329
+msgid ""
+"Auto-detects your CPU and GPU to enable specific drivers and optimizations "
+"for your machine. Ideal for maximum performance on your specific hardware."
+msgstr ""
+"Détecte automatiquement votre processeur et votre carte graphique pour "
+"activer des pilotes et des optimisations spécifiques à votre machine. Idéal "
+"pour des performances maximales."
+
+#: kernel_installer_gui/widgets/build_progress.py:62
+msgid "SYSTEM LOAD"
+msgstr "CHARGE DU SYSTÈME"
+
+#: kernel_installer_gui/widgets/build_progress.py:84
+msgid "Load average:"
+msgstr "Moyenne de charge :"
+
+#: kernel_installer_gui/widgets/build_progress.py:88
+#: kernel_installer_gui/widgets/build_progress.py:212
+msgid "Now (1m):"
+msgstr "Maintenant (1m):"
+
+#: kernel_installer_gui/widgets/build_progress.py:90
+msgid "System load in the last minute"
+msgstr "Charge syst00e8me derni00e8re minute"
+
+#: kernel_installer_gui/widgets/build_progress.py:93
+#: kernel_installer_gui/widgets/build_progress.py:213
+msgid "Avg (5m):"
+msgstr "Moyenne (5m):"
+
+#: kernel_installer_gui/widgets/build_progress.py:95
+msgid "Average system load in the last 5 minutes"
+msgstr "Charge moyenne 5 minutes"
+
+#: kernel_installer_gui/widgets/build_progress.py:98
+#: kernel_installer_gui/widgets/build_progress.py:214
+msgid "Avg (15m):"
+msgstr "Moyenne (15m):"
+
+#: kernel_installer_gui/widgets/build_progress.py:100
+msgid "Average system load in the last 15 minutes"
+msgstr "Charge moyenne 15 minutes"
+
+#: kernel_installer_gui/widgets/build_progress.py:104
+#, python-format
+msgid "Cores: %d"
+msgstr "Cœurs : %d"
+
+#: kernel_installer_gui/widgets/build_progress.py:120
+msgid "Ready to build"
+msgstr "Prêt pour la construction"
+
+#: kernel_installer_gui/widgets/build_progress.py:184
+#, python-format
+msgid "Time: %(h)02d:%(m)02d:%(s)02d"
+msgstr "Temps : %(h)02d:%(m)02d:%(s)02d"
+
+#: kernel_installer_gui/widgets/build_progress.py:223
+msgid "Build completed successfully!"
+msgstr "Construction terminée avec succès !"
+
+#: kernel_installer_gui/widgets/build_progress.py:227
+msgid "Build failed"
+msgstr "Échec de la construction"
+
+#: kernel_installer_gui/widgets/history_view.py:29
+msgid "📜 Installed kernels history"
+msgstr "📜 Historique des noyaux installés"
+
+#: kernel_installer_gui/widgets/history_view.py:58
+msgid "No kernels installed yet"
+msgstr "Aucun noyau installé pour l'instant"
+
+#: kernel_installer_gui/widgets/history_view.py:83
+msgid "Current kernel"
+msgstr "Noyau actuel"
+
+#: kernel_installer_gui/widgets/history_view.py:113
+msgid "Remove this kernel"
+msgstr "Supprimer ce noyau"
+
+#: kernel_installer_gui/widgets/history_view.py:119
+msgid "Cannot remove the currently running kernel"
+msgstr "Impossible de supprimer le noyau en cours d'utilisation"
+
+#: kernel_installer_gui/widgets/profile_selector.py:68
+msgid "Select kernel profile"
+msgstr "Sélectionner le profil du noyau"
+
+#: kernel_installer_gui/widgets/version_picker.py:33
+msgid "Kernel version"
+msgstr "Version du noyau"
+
+#: kernel_installer_gui/widgets/version_picker.py:51
+msgid "Check for updates"
+msgstr "Vérifier les mises à jour"
+
+#: kernel_installer_gui/widgets/version_picker.py:94
+msgid "<span foreground='orange'>⚠ Experimental version (RC)</span>"
+msgstr "<span foreground='orange'>⚠ Version expérimentale (RC)</span>"
+
+#: kernel_installer_gui/widgets/version_picker.py:96
+msgid "<span foreground='lightblue'>✦ Mainline version (Development)</span>"
+msgstr "<span foreground='orange'>⚠ Version expérimentale (RC)</span>"
+
+#: kernel_installer_gui/widgets/version_picker.py:98
+msgid "<b>✓ Latest stable version</b>"
+msgstr "<b>✓ Dernière version stable</b>"
+
+#: kernel_installer_gui/widgets/version_picker.py:100
+msgid "Long-term support version (LTS)"
+msgstr "Version de support à long terme (LTS)"
+
+#: kernel_installer_gui/widgets/version_picker.py:102
+msgid "Stable version"
+msgstr "Version stable"
+
+#: kernel_installer_gui/widgets/version_picker.py:134
+msgid " (RC - Experimental)"
+msgstr " (RC - Expérimental)"
+
+#: kernel_installer_gui/widgets/version_picker.py:136
+msgid " (Mainline)"
+msgstr " (Mainline)"
+
+#: kernel_installer_gui/widgets/version_picker.py:138
+msgid " (Latest)"
+msgstr " (Dernière)"
+
+#: kernel_installer_gui/widgets/version_picker.py:140
+msgid " (LTS)"
+msgstr " (LTS)"
+
+#: kernel_installer_gui/core/kernel.py:557
+msgid "Installation cancelled during download."
+msgstr "Installation annulée pendant le téléchargement."
+
+#: kernel_installer_gui/core/kernel.py:566
+msgid "Installation cancelled during configuration."
+msgstr "Installation annulée pendant la configuration."
+
+#: kernel_installer_gui/widgets/build_progress.py:224
+msgid "Cancellation complete."
+msgstr "Annulation terminée."
+
+#: kernel_installer_gui/widgets/build_progress.py:225
+msgid "Cancelled"
+msgstr "Annulé"
+
+#~ msgid "Installing .deb packages..."
+#~ msgstr "Installation des paquets .deb..."
+
+#~ msgid "Installing RPM packages..."
+#~ msgstr "Installation des paquets RPM..."
+
+#, python-format
+#~ msgid "RPM installation error: %(error)s"
+#~ msgstr "Erreur d'installation RPM : %(error)s"
+
+#~ msgid "Installing modules..."
+#~ msgstr "Installation des modules..."
+
+#, python-format
+#~ msgid "Module installation error: %(error)s"
+#~ msgstr "Erreur d'installation des modules : %(error)s"
+
+#, python-format
+#~ msgid "Kernel installation error: %(error)s"
+#~ msgstr "Erreur d'installation du noyau : %(error)s"
+
+#~ msgid "Regenerating initramfs..."
+#~ msgstr "Régénération d'initramfs..."
+
+#~ msgid "Warning: Error regenerating initramfs"
+#~ msgstr "Avertissement : Erreur lors de la régénération d'initramfs"
+
+#: kernel_installer_gui/core/kernel.py:414
+msgid "Generating .deb package (compressing)..."
+msgstr "Génération du paquet .deb (compression)..."
+
+#: kernel_installer_gui/core/kernel.py:416
+msgid "Preparing Debian packaging scripts..."
+msgstr "Préparation des scripts d'empaquetage Debian..."
+
+#: kernel_installer_gui/core/kernel.py:417
+msgid "Generating RPM package (compressing)..."
+msgstr "Génération du paquet RPM (compression)..."
+
+#: kernel_installer_gui/core/kernel.py:418
+msgid "RPM package generated."
+msgstr "Paquet RPM généré."
+
+#: kernel_installer_gui/core/kernel.py:419
+msgid "Kernel image ready, finalizing..."
+msgstr "Image du noyau prête, finalisation..."
+
+#: kernel_installer_gui/core/kernel.py:420
+msgid "Finalizing modules (stage 2)..."
+msgstr "Finalisation des modules (étape 2)..."
+
+#: kernel_installer_gui/core/kernel.py:421
+msgid "Compressing kernel modules..."
+msgstr "Compression des modules du noyau..."
+
+#: kernel_installer_gui/core/kernel.py:422
+msgid "Running mkinitcpio..."
+msgstr "Exécution de mkinitcpio..."
+
+#: kernel_installer_gui/core/kernel.py:423
+msgid "Running dracut..."
+msgstr "Exécution de dracut..."
+
+#: kernel_installer_gui/core/kernel.py:772
+msgid "Removing kernel and updating bootloader..."
+msgstr "Suppression du noyau et mise à jour du chargeur d'amorçage..."
+
+msgid "Running mkinitcpio (generating initramfs)..."
+msgstr "Exécution de mkinitcpio (génération de l'initramfs)..."
+
+msgid "Running dracut (generating initramfs)..."
+msgstr "Exécution de dracut (génération de l'initramfs)..."
+
+msgid "Updating initramfs..."
+msgstr "Mise à jour de l'initramfs..."
+
+msgid "Updating GRUB bootloader..."
+msgstr "Mise à jour du chargeur d'amorçage GRUB..."
+
+msgid "Generating GRUB configuration..."
+msgstr "Génération de la configuration GRUB..."
+
+msgid "Installing GRUB..."
+msgstr "Installation de GRUB..."
+
+msgid "Setting up kernel image..."
+msgstr "Configuration de l'image du noyau..."
+
+msgid "Installing kernel packages..."
+msgstr "Installation des paquets du noyau..."
+
+# --- Mainuan Kernel Installer 1.1.0 additions ---
+
+msgid "%(cur)s - older than the recommended %(min)s+"
+msgstr "%(cur)s - plus ancien que la version recommandée (%(min)s+)"
+
+msgid "%(cur)s - sufficient for this hardware"
+msgstr "%(cur)s - suffisant pour ce matériel"
+
+msgid "%(lvl)s - compatible with XanMod x64v2 builds"
+msgstr "%(lvl)s - compatible avec les versions XanMod x64v2"
+
+msgid "%(lvl)s - compatible with all optimised kernels"
+msgstr "%(lvl)s - compatible avec tous les noyaux optimisés"
+
+msgid "%(lvl)s - only baseline kernels (XanMod LTS x64v1)"
+msgstr "%(lvl)s - noyaux de base uniquement (XanMod LTS x64v1)"
+
+msgid "%(n)d kernels listed"
+msgstr "%(n)d noyaux listés"
+
+msgid "%(what)s graphics"
+msgstr "Graphismes %(what)s"
+
+msgid "%(what)s processor"
+msgstr "Processeur %(what)s"
+
+msgid "APT - pre-built RT / LTS / XanMod kernels are available"
+msgstr "APT - des noyaux RT / LTS / XanMod précompilés sont disponibles"
+
+msgid "Analysing installed software..."
+msgstr "Analyse des logiciels installés..."
+
+msgid "Apply recommendation"
+msgstr "Appliquer la recommandation"
+
+msgid "Audio / Video"
+msgstr "Audio / Vidéo"
+
+msgid "Audio production software detected: %(names)s"
+msgstr "Logiciels de production audio détectés : %(names)s"
+
+msgid "Audio production software was found: a real-time kernel reduces audio latency and dropouts."
+msgstr "Des logiciels de production audio ont été trouvés : un noyau temps réel réduit la latence et les coupures audio."
+
+msgid "Authentication was cancelled or denied."
+msgstr "L'authentification a été annulée ou refusée."
+
+msgid "Build error (Exit code: %(code)d)"
+msgstr "Erreur de compilation (code de sortie : %(code)d)"
+
+msgid "CPU instruction level"
+msgstr "Niveau d'instructions du processeur"
+
+msgid "Cannot remove the only installed kernel"
+msgstr "Impossible de supprimer le seul noyau installé"
+
+msgid "Check the terminal output for details or try installing missing dependencies and rebuilding."
+msgstr "Consultez la sortie du terminal pour plus de détails ou essayez d'installer les dépendances manquantes puis recompilez."
+
+msgid "Checking firmware (UEFI / Secure Boot)..."
+msgstr "Vérification du micrologiciel (UEFI / Secure Boot)..."
+
+msgid "Checking storage..."
+msgstr "Vérification du stockage..."
+
+msgid "Choose an RT kernel from the list."
+msgstr "Choisissez un noyau RT dans la liste."
+
+msgid "Choose the newest signed kernel in the list (HWE / backports)."
+msgstr "Choisissez le noyau signé le plus récent de la liste (HWE / backports)."
+
+msgid "Choosing the best kernel..."
+msgstr "Choix du meilleur noyau..."
+
+msgid "Cleaning build environment..."
+msgstr "Nettoyage de l'environnement de compilation..."
+
+msgid "Cleaning up build files..."
+msgstr "Nettoyage des fichiers de compilation..."
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Compile"
+msgstr "Compiler"
+
+msgid "Compile Linux %(version)s"
+msgstr "Compiler Linux %(version)s"
+
+msgid "Could not fetch the version list (offline?)"
+msgstr "Impossible de récupérer la liste des versions (hors ligne ?)"
+
+msgid "Could not remove the kernel packages."
+msgstr "Impossible de supprimer les paquets du noyau."
+
+msgid "Could not update the package lists."
+msgstr "Impossible de mettre à jour les listes de paquets."
+
+msgid "Custom"
+msgstr "Personnalisé"
+
+msgid "Debian real-time kernel (RT)"
+msgstr "Noyau temps réel Debian (RT)"
+
+msgid "Debian stable kernel"
+msgstr "Noyau stable Debian"
+
+msgid "Default long-term kernel of your Ubuntu release, updated automatically"
+msgstr "Noyau à support prolongé par défaut de votre version d'Ubuntu, mis à jour automatiquement"
+
+msgid "Desktop / workstation"
+msgstr "Ordinateur de bureau / station de travail"
+
+msgid "Detecting machine type..."
+msgstr "Détection du type de machine..."
+
+msgid "Disabled - any kernel can boot"
+msgstr "Désactivé - n'importe quel noyau peut démarrer"
+
+msgid "Distribution"
+msgstr "Distribution"
+
+msgid "Do you want to continue?"
+msgstr "Voulez-vous continuer ?"
+
+msgid "Downloading linux-%(version)s.%(ext)s..."
+msgstr "Téléchargement de linux-%(version)s.%(ext)s..."
+
+msgid "Enabled - compiled and XanMod kernels are unsigned"
+msgstr "Activé - les noyaux compilés et XanMod ne sont pas signés"
+
+msgid "Error: Extraction failed (Makefile not found in %s)"
+msgstr "Erreur : échec de l'extraction (Makefile introuvable dans %s)"
+
+msgid "Extracting linux-%(version)s..."
+msgstr "Extraction de linux-%(version)s..."
+
+msgid "Firmware"
+msgstr "Micrologiciel"
+
+msgid "Free space for compiling"
+msgstr "Espace libre pour compiler"
+
+msgid "Free space in /boot"
+msgstr "Espace libre dans /boot"
+
+msgid "Gaming software detected: %(names)s"
+msgstr "Logiciels de jeu détectés : %(names)s"
+
+msgid "Gaming software was found and your CPU supports x86-64-v3: XanMod improves responsiveness and frame pacing."
+msgstr "Des logiciels de jeu ont été trouvés et votre processeur prend en charge x86-64-v3 : XanMod améliore la réactivité et la fluidité."
+
+msgid "Gaming software was found: XanMod LTS adds desktop/gaming tuning on a long-term base."
+msgstr "Des logiciels de jeu ont été trouvés : XanMod LTS ajoute des optimisations bureau/jeu sur une base à support prolongé."
+
+msgid "Graphics"
+msgstr "Graphismes"
+
+msgid "HWE kernel (Ubuntu %(v)s)"
+msgstr "Noyau HWE (Ubuntu %(v)s)"
+
+msgid "Hardware requirement"
+msgstr "Exigence matérielle"
+
+msgid "Hardware test results"
+msgstr "Résultats du test matériel"
+
+msgid "Install"
+msgstr "Installer"
+
+msgid "Install %(name)s?"
+msgstr "Installer %(name)s ?"
+
+msgid "Installation cancelled by user."
+msgstr "Installation annulée par l'utilisateur."
+
+msgid "Installation error (Check logs)"
+msgstr "Erreur d'installation (consultez les journaux)"
+
+msgid "Installation failed."
+msgstr "L'installation a échoué."
+
+msgid "Installed"
+msgstr "Installé"
+
+msgid "Installed kernels"
+msgstr "Noyaux installés"
+
+msgid "Installed: %(date)s"
+msgstr "Installé le : %(date)s"
+
+msgid "Installing %(name)s..."
+msgstr "Installation de %(name)s..."
+
+msgid "Kernel installed successfully."
+msgstr "Noyau installé avec succès."
+
+msgid "Kernel.org %(kind)s release compiled with the \"%(profile)s\" profile."
+msgstr "Version %(kind)s de Kernel.org compilée avec le profil « %(profile)s »."
+
+msgid "LTS kernel (distribution)"
+msgstr "Noyau LTS (distribution)"
+
+msgid "Laptop"
+msgstr "Ordinateur portable"
+
+msgid "Latest stable kernel with XanMod performance and desktop patches"
+msgstr "Dernier noyau stable avec les correctifs de performance et de bureau de XanMod"
+
+msgid "Legacy BIOS - no Secure Boot restrictions"
+msgstr "BIOS hérité - aucune restriction Secure Boot"
+
+msgid "Linux %(v)s"
+msgstr "Linux %(v)s"
+
+msgid "Loading available kernels..."
+msgstr "Chargement des noyaux disponibles..."
+
+msgid "Long-term kernel with XanMod patches - the most stable XanMod branch"
+msgstr "Noyau à support prolongé avec correctifs XanMod - la branche XanMod la plus stable"
+
+msgid "Long-term support kernel from your distribution's repositories: signed, stable and the most compatible."
+msgstr "Noyau à support prolongé des dépôts de votre distribution : signé, stable et le plus compatible."
+
+msgid "Long-term support kernels: the most stable and compatible choice."
+msgstr "Noyaux à support prolongé : le choix le plus stable et le plus compatible."
+
+msgid "Low memory (%(gb).1f GB): if you compile, the Minimal profile keeps the kernel small."
+msgstr "Peu de mémoire (%(gb).1f Go) : si vous compilez, le profil Minimal garde le noyau léger."
+
+msgid "Low-latency"
+msgstr "Faible latence"
+
+msgid "Low-latency preemption for audio / video (not full real-time)"
+msgstr "Préemption à faible latence pour audio / vidéo (pas du temps réel complet)"
+
+msgid "Machine type"
+msgstr "Type de machine"
+
+msgid "Memory"
+msgstr "Mémoire"
+
+msgid "NVIDIA driver"
+msgstr "Pilote NVIDIA"
+
+msgid "NVMe drive detected"
+msgstr "Disque NVMe détecté"
+
+msgid "Newer LTS kernel for recent hardware, updated automatically"
+msgstr "Noyau LTS plus récent pour le matériel récent, mis à jour automatiquement"
+
+msgid "Newest LTS / HWE kernel (distribution)"
+msgstr "Noyau LTS / HWE le plus récent (distribution)"
+
+msgid "Newest upstream features, less tested"
+msgstr "Dernières nouveautés du noyau amont, moins testé"
+
+msgid "No kernels of this type are available in your repositories. Try \"Update package lists\"."
+msgstr "Aucun noyau de ce type dans vos dépôts. Essayez « Mettre à jour les listes de paquets »."
+
+msgid "No special workload detected: an LTS kernel gives the best stability and compatibility."
+msgstr "Aucun usage particulier détecté : un noyau LTS offre la meilleure stabilité et compatibilité."
+
+msgid "Not APT-based - the pre-built kernels section is unavailable"
+msgstr "Système non basé sur APT - la section des noyaux précompilés n'est pas disponible"
+
+msgid "Not detected (lspci unavailable)"
+msgstr "Non détecté (lspci indisponible)"
+
+msgid "Official long-term kernel of your Debian release, updated automatically"
+msgstr "Noyau officiel à support prolongé de votre version de Debian, mis à jour automatiquement"
+
+msgid "Operation completed successfully"
+msgstr "Opération terminée avec succès"
+
+msgid "Other compatible options"
+msgstr "Autres options compatibles"
+
+msgid "PREEMPT_RT kernel (may require Ubuntu Pro)"
+msgstr "Noyau PREEMPT_RT (peut nécessiter Ubuntu Pro)"
+
+msgid "PREEMPT_RT kernel for ultra-low latency, updated automatically"
+msgstr "Noyau PREEMPT_RT à latence ultra-faible, mis à jour automatiquement"
+
+msgid "Package lists updated."
+msgstr "Listes de paquets mises à jour."
+
+msgid "Package system"
+msgstr "Système de paquets"
+
+msgid "Pre-built kernel tuned for desktop responsiveness and performance (package %(pkg)s)."
+msgstr "Noyau précompilé optimisé pour la réactivité et les performances du bureau (paquet %(pkg)s)."
+
+msgid "Pre-built kernels need an APT based system (Debian, Ubuntu and derivatives)."
+msgstr "Les noyaux précompilés nécessitent un système basé sur APT (Debian, Ubuntu et dérivés)."
+
+msgid "Processor"
+msgstr "Processeur"
+
+msgid "Proprietary driver in use - LTS kernels recommended"
+msgstr "Pilote propriétaire utilisé - noyaux LTS recommandés"
+
+msgid "RECOMMENDED FOR YOUR PC"
+msgstr "RECOMMANDÉ POUR VOTRE PC"
+
+msgid "Reachable (%(n)d versions found)"
+msgstr "Accessible (%(n)d versions trouvées)"
+
+msgid "Real-time (RT) kernel"
+msgstr "Noyau temps réel (RT)"
+
+msgid "Real-time and low-latency kernels for audio, video and industrial use."
+msgstr "Noyaux temps réel et à faible latence pour l'audio, la vidéo et un usage industriel."
+
+msgid "Real-time kernel for low-latency audio (package %(pkg)s)."
+msgstr "Noyau temps réel pour un audio à faible latence (paquet %(pkg)s)."
+
+msgid "Real-time preemption (PREEMPT_RT) for ultra-low latency"
+msgstr "Préemption temps réel (PREEMPT_RT) pour une latence ultra-faible"
+
+msgid "Recommended kernel for this PC"
+msgstr "Noyau recommandé pour ce PC"
+
+msgid "Recommended kernel for this computer"
+msgstr "Noyau recommandé pour cet ordinateur"
+
+msgid "Refresh list"
+msgstr "Actualiser la liste"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Remove %(name)s?"
+msgstr "Supprimer %(name)s ?"
+
+msgid "Removing %(n)d kernel(s)..."
+msgstr "Suppression de %(n)d noyau(x)..."
+
+msgid "Removing kernel packages..."
+msgstr "Suppression des paquets du noyau..."
+
+msgid "Removing this would leave the system without any kernel installed."
+msgstr "Cette suppression laisserait le système sans aucun noyau installé."
+
+msgid "Run a hardware test and get the recommended, compatible kernel."
+msgstr "Lancez un test matériel et obtenez le noyau recommandé et compatible."
+
+msgid "Running"
+msgstr "En cours"
+
+msgid "Running make olddefconfig..."
+msgstr "Exécution de make olddefconfig..."
+
+msgid "Runs apt update (requires password)"
+msgstr "Exécute apt update (mot de passe requis)"
+
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+msgid "Secure Boot is enabled: prefer a signed RT kernel from your distribution."
+msgstr "Secure Boot est activé : préférez un noyau RT signé de votre distribution."
+
+msgid "Secure Boot is enabled: signed distribution kernels boot without extra steps, while compiled or XanMod kernels are unsigned."
+msgstr "Secure Boot est activé : les noyaux signés de la distribution démarrent sans étape supplémentaire, alors que les noyaux compilés ou XanMod ne sont pas signés."
+
+msgid "Select for removal"
+msgstr "Sélectionner pour suppression"
+
+msgid "Specific XanMod build"
+msgstr "Version XanMod spécifique"
+
+msgid "Specific kernel build from your distribution"
+msgstr "Version de noyau spécifique de votre distribution"
+
+msgid "Specific real-time / low-latency build from your distribution"
+msgstr "Version temps réel / faible latence spécifique de votre distribution"
+
+msgid "Starting..."
+msgstr "Démarrage..."
+
+msgid "Storage"
+msgstr "Stockage"
+
+msgid "Testing graphics cards..."
+msgstr "Test des cartes graphiques..."
+
+msgid "Testing memory..."
+msgstr "Test de la mémoire..."
+
+msgid "Testing processor..."
+msgstr "Test du processeur..."
+
+msgid "Testing your hardware..."
+msgstr "Test de votre matériel..."
+
+msgid "The NVIDIA proprietary driver is in use: prefer LTS kernels (the driver supports them first) and keep the kernel headers installed."
+msgstr "Le pilote propriétaire NVIDIA est utilisé : préférez les noyaux LTS (le pilote les prend en charge en premier) et gardez les en-têtes du noyau installés."
+
+msgid "The hardware test failed: %(e)s"
+msgstr "Le test matériel a échoué : %(e)s"
+
+msgid "The kernel %(k)s is currently running. Boot into another kernel first, then remove it."
+msgstr "Le noyau %(k)s est en cours d'exécution. Démarrez d'abord un autre noyau, puis supprimez-le."
+
+msgid "The package %(pkg)s will be installed and the bootloader updated."
+msgstr "Le paquet %(pkg)s sera installé et le chargeur de démarrage mis à jour."
+
+msgid "These packages will be removed:"
+msgstr "Ces paquets seront supprimés :"
+
+msgid "This kernel is not installed."
+msgstr "Ce noyau n'est pas installé."
+
+msgid "This test is a guide based on the detected hardware and installed software. LTS kernels are always the safest choice."
+msgstr "Ce test est un guide basé sur le matériel détecté et les logiciels installés. Les noyaux LTS restent toujours le choix le plus sûr."
+
+msgid "This will also add the official XanMod repository (deb.xanmod.org) and its signing key to your system."
+msgstr "Cela ajoutera aussi à votre système le dépôt officiel de XanMod (deb.xanmod.org) et sa clé de signature."
+
+msgid "Tick the kernels you no longer need and press \"Remove selected\", or use the bin icon on a row. The running kernel cannot be removed."
+msgstr "Cochez les noyaux dont vous n'avez plus besoin et appuyez sur « Supprimer la sélection », ou utilisez l'icône de corbeille d'une ligne. Le noyau en cours d'exécution ne peut pas être supprimé."
+
+msgid "UEFI detected, state unknown (install mokutil to check)"
+msgstr "UEFI détecté, état inconnu (installez mokutil pour vérifier)"
+
+msgid "Ubuntu LTS kernel (generic)"
+msgstr "Noyau LTS Ubuntu (generic)"
+
+msgid "Ubuntu low-latency kernel"
+msgstr "Noyau à faible latence Ubuntu"
+
+msgid "Ubuntu real-time kernel (RT)"
+msgstr "Noyau temps réel Ubuntu (RT)"
+
+msgid "Unknown processor"
+msgstr "Processeur inconnu"
+
+msgid "Update package lists"
+msgstr "Mettre à jour les listes de paquets"
+
+msgid "Updating package lists..."
+msgstr "Mise à jour des listes de paquets..."
+
+msgid "Usage profile"
+msgstr "Profil d'utilisation"
+
+msgid "Use this"
+msgstr "Utiliser celui-ci"
+
+msgid "Virtual machine (%(hv)s)"
+msgstr "Machine virtuelle (%(hv)s)"
+
+msgid "Which kernel is best for this PC?"
+msgstr "Quel noyau est le meilleur pour ce PC ?"
+
+msgid "XanMod %(v)s (%(lvl)s)"
+msgstr "XanMod %(v)s (%(lvl)s)"
+
+msgid "XanMod (gaming / desktop)"
+msgstr "XanMod (jeu / bureau)"
+
+msgid "XanMod (latest)"
+msgstr "XanMod (le plus récent)"
+
+msgid "XanMod EDGE"
+msgstr "XanMod EDGE"
+
+msgid "XanMod LTS"
+msgstr "XanMod LTS"
+
+msgid "XanMod MAIN"
+msgstr "XanMod MAIN"
+
+msgid "XanMod RT"
+msgstr "XanMod RT"
+
+msgid "XanMod Real-Time (RT)"
+msgstr "XanMod Temps réel (RT)"
+
+msgid "XanMod kernels: tuned for desktop responsiveness, gaming and performance. Installing one adds the official XanMod repository."
+msgstr "Noyaux XanMod : optimisés pour la réactivité du bureau, le jeu et les performances. L'installation d'un noyau ajoute le dépôt officiel de XanMod."
+
+msgid "You are running inside a virtual machine (%(hv)s): a stable LTS kernel is the safest choice."
+msgstr "Vous êtes dans une machine virtuelle (%(hv)s) : un noyau LTS stable est le choix le plus sûr."
+
+msgid "Your CPU only supports baseline x86-64: only XanMod LTS (x64v1) is compatible."
+msgstr "Votre processeur ne prend en charge que le x86-64 de base : seul XanMod LTS (x64v1) est compatible."
+
+msgid "Your kernel %(cur)s is older than the %(min)s+ recommended for your hardware, and Secure Boot requires a signed kernel."
+msgstr "Votre noyau %(cur)s est plus ancien que le %(min)s+ recommandé pour votre matériel, et Secure Boot exige un noyau signé."
+
+msgid "Your kernel %(cur)s is older than the %(min)s+ recommended for your hardware."
+msgstr "Votre noyau %(cur)s est plus ancien que le %(min)s+ recommandé pour votre matériel."
+
+msgid "Your kernel %(cur)s is older than the %(min)s+ recommended for your hardware: XanMod ships a recent kernel as a ready-to-install package."
+msgstr "Votre noyau %(cur)s est plus ancien que le %(min)s+ recommandé pour votre matériel : XanMod fournit un noyau récent sous forme de paquet prêt à installer."
+
+msgid "available %(v)s"
+msgstr "disponible %(v)s"
+
+msgid "installed %(v)s"
+msgstr "installé %(v)s"
+
+msgid "kernel.org"
+msgstr "kernel.org"
+
+msgid "long-term"
+msgstr "à support prolongé"
+
+msgid "stable"
+msgstr "stable"
+
+msgid "threads"
+msgstr "threads"
+
+msgid "🎯 Recommended kernel"
+msgstr "🎯 Noyau recommandé"
+
+msgid "📦 Pre-built kernels (RT, LTS, XanMod)"
+msgstr "📦 Noyaux précompilés (RT, LTS, XanMod)"
+
+msgid "🗑 Remove selected"
+msgstr "🗑 Supprimer la sélection"

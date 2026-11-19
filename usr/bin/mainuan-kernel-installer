@@ -1,0 +1,29 @@
+#!/bin/bash
+# Mainuan Kernel Installer - Execution Wrapper
+# Copyright (C) 2026 David Caixinha
+#
+# This wrapper allows running the application from anywhere
+
+# 1. Determine search locations
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# 2. Find the application base directory
+if [ -f "$SCRIPT_DIR/../main.py" ]; then
+    # Development mode (bin/ inside the repo)
+    APP_BASE="$(cd "$SCRIPT_DIR/.." && pwd)"
+elif [ -f "/usr/share/mainuan-kernel-installer/main.py" ]; then
+    # Installed system-wide
+    APP_BASE="/usr/share/mainuan-kernel-installer"
+elif [ -f "$HOME/.local/share/mainuan-kernel-installer/main.py" ]; then
+    # Installed for user
+    APP_BASE="$HOME/.local/share/mainuan-kernel-installer"
+else
+    echo "Error: mainuan-kernel-installer core files not found."
+    echo "Checked: $SCRIPT_DIR/../main.py and /usr/share/mainuan-kernel-installer/main.py"
+    exit 1
+fi
+
+# 3. Launch the application
+export PYTHONPATH="$APP_BASE:$PYTHONPATH"
+exec python3 "$APP_BASE/main.py" "$@"
+
