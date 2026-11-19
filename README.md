@@ -1,6 +1,6 @@
 <div align="center">
 
-![Mainuan kernel installer Icon](usr/share/icons/128x128/org.kernel-installer.png)
+![Mainuan kernel installer Icon](usr/share/icons/hicolor/128x128/apps/org.mainuan.kernel-installer.png)
 
 # Mainuan Kernel Installer
 
