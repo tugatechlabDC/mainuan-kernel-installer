@@ -97,5 +97,5 @@ checks, which must all be green (passing). Document any visible changes in
 [CHANGELOG.md](CHANGELOG.md) and `debian/changelog`.
 
 
-- [GitHub Repository](https://github.com/SoplosLinux/kernel-installer)
+- [GitHub Repository](https://github.com/mainuan/mainuan-kernel-installer)
 
