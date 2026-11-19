@@ -11,6 +11,8 @@ A graphical interface for downloading, compiling, and installing the Linux kerne
 
 **Mainuan Kernel installer** is an elegant, lightweight Site Specific Browser (SSB) engine tailored for Mainuan Linux. It effortlessly turns any website into a standalone, desktop-integrated application utilizing isolated browser profiles for maximum privacy and separation from your primary web session.
 
+</div>
+
 ## Preview
 
 ![Kernel Installer Screenshot 01](kernel_installer_gui/assets/screenshots/screenshot01.png)
